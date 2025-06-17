@@ -1,0 +1,23 @@
+<!-- File: demo.hta -->
+<html>
+<head>
+  <title>HTA test</title>
+  <HTA:APPLICATION
+    ID="TestApp"
+    APPLICATIONNAME="HTATest"
+    BORDER="thin"
+    BORDERSTYLE="normal"
+    CAPTION="yes"
+    SHOWINTASKBAR="yes"
+    SINGLEINSTANCE="yes"
+    WINDOWSTATE="normal"
+  >
+  <script type="text/vbscript">
+    MsgBox "THIS IS A HTA TEST MESSAGE", vbInformation, "HTA Demo"
+  </script>
+</head>
+<body>
+  <h1>HTA TEST Page</h1>
+  <p>THIS HTA Application will show the information when it starts</p>
+</body>
+</html>
